@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for x in range(65, 91):
-    print("{}".format(chr(x).lower()), end="")
+for x in range(97,123):
+    print("{}".format(chr(x)), end="")
