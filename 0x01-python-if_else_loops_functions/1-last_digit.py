@@ -16,4 +16,3 @@ elif rem < 6:
         print(f"Last digit of {n} is -{-n % 10} and is less than 6 and not 0")
     else:
         print(f"Last digit of {n:d} is {rem:d} and is less than 6 and not 0")
-
