@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 def new_in_list(my_list, idx, element):
-    if len(my_list) == 0
-        return None
     my_list_cpy = my_list.copy()
     if idx < 0:
         if (idx < 0) and (idx >= (len(my_list) * -1)):
