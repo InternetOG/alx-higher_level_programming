@@ -13,3 +13,5 @@ def new_in_list(my_list, idx, element):
         elif idx >= 0 and idx < len(my_list):
             my_list_cpy[idx] = element
             return my_list_cpy
+    else:
+        return None
