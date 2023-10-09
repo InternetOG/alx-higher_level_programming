@@ -3,6 +3,8 @@ def new_in_list(my_list, idx, element):
     if not my_list:
         return None
     my_list_cpy = my_list.copy()
+    if not my_list_cpy:
+        return None
     if idx < 0:
         if (idx < 0) and (idx >= (len(my_list) * -1)):
             my_list_cpy[idx] = element
