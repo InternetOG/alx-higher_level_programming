@@ -16,4 +16,3 @@ if __name__ == "__main__":
         if i > 0:
             arr.append(argv[i])
     print("{}".format(sumM(arr)))
-
