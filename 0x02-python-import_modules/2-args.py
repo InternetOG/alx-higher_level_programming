@@ -9,4 +9,4 @@ if __name__ == "__main__":
         print("{:d} argument:".format((len(argv) - 1)))
     for i in range(len(argv)):
         if i > 0:
-            print("{:d}: {:d}".format(i, argv[i]))
+            print("{:d}: {:s}".format(i, argv[i]))
