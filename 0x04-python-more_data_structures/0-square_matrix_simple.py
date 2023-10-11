@@ -6,4 +6,4 @@ def square_matrix_simple(matrix=[]):
         for inner in range(len(out)):
             innerMatrix.append(out[inner] ** 2)
         newMatrix.append(innerMatrix)
-    print("{}".format(newMatrix))
+    return newMatrix
