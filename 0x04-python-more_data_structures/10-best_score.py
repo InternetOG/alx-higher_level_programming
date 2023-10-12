@@ -4,6 +4,8 @@ def best_score(a_dictionary):
     for k, v in a_dictionary.items():
         arr.append(v)
     maxNum = max(arr)
+    if not maxNum:
+        return None
     for k, v in a_dictionary.items():
         if a_dictionary[k] == maxNum:
             return k
