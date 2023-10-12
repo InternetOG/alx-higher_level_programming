@@ -7,5 +7,3 @@ def best_score(a_dictionary):
     for k, v in a_dictionary.items():
         if a_dictionary[k] == maxNum:
             return k
-    else:
-        return None
